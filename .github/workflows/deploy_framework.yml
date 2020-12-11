@@ -1,4 +1,4 @@
-// USE THIS WORKFLOW IF YOU'RE USING AN FRAMEWORK
+# USE THIS WORKFLOW IF YOU'RE USING AN FRAMEWORK
 name: Build and Deploy
 on:
   push:
@@ -10,7 +10,7 @@ jobs:
     name: Build
     runs-on: ubuntu-latest
     steps:
-    // YOU MIGHT HAVE TO CHANGE SOMS STEPS LIKE THE BUILD COMMAND!
+    # YOU MIGHT HAVE TO CHANGE SOMS STEPS LIKE THE BUILD COMMAND!
       - name: Checkout Repo
         uses: actions/checkout@master
       - name: Install Dependencies
