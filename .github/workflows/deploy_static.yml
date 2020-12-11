@@ -1,3 +1,4 @@
+// USE THIS WORKFLOW IF YOU'RE NOT USING AN FRAMEWORK
 name: Automated Deployment
 on:
   push:
